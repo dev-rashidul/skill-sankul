@@ -1,0 +1,60 @@
+/* Base Styles CSS Start */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Potato Sans Font */
+
+@font-face {
+  font-family: potato-sans;
+  src: url(../fonts/Potato_sans-Black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: potato-sans;
+  src: url(../fonts/Potato_sans-Bold.otf);
+  font-weight: 700;
+}
+
+/* Segoe Print Font */
+
+@font-face {
+  font-family: segoe-print;
+  src: url(../fonts/segoepr.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Jost", sans-serif; */
+  /* font-family: potato-sans; */
+  /* font-family: segoe-print; */
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Base Styles CSS End */
