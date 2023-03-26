@@ -62,9 +62,42 @@ a {
 /* Header Part CSS Start */
 
 header {
-  background: linear-gradient(#ffaffb, #8defff);
+  background: linear-gradient(#ffaffbb8, #8defffc4);
   padding: 20px 0 60px;
 }
+
+/* Topbar Section CSS Start */
+
+.topbar-contact li {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #3b2923;
+}
+
+.topbar-contact li a {
+  font-weight: 500;
+  color: #3b2923;
+}
+
+.topbar-contact li i {
+  color: #3b2923;
+  padding-right: 5px;
+}
+
+.topbar-social li {
+  padding-left: 10px;
+}
+
+.topbar-social li a {
+  color: #282829;
+}
+
+.topbar-social li a i {
+  font-size: 20px;
+}
+
+/* Topbar Section CSS End */
 
 /* Navigation Section CSS Start */
 
