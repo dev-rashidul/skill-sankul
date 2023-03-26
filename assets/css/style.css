@@ -63,7 +63,7 @@ a {
 
 header {
   background: linear-gradient(#ffaffb, #8defff);
-  padding: 20px 0 100px;
+  padding: 20px 0 60px;
 }
 
 /* Navigation Section CSS Start */
@@ -188,5 +188,38 @@ nav.navbar {
 }
 
 /* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding: 120px 0;
+}
+
+.hero-content h1 {
+  font-family: potato-sans;
+  font-size: 64px;
+}
+
+.hero-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-btn a {
+  font-size: 18px;
+  color: #349db1;
+  font-weight: 600;
+  background: #ffffff;
+  padding: 12px 40px;
+  border-radius: 50px;
+}
+
+.hero-btn a img {
+  width: 25px;
+  padding-left: 5px;
+}
+
+/* Hero Section CSS End */
 
 /* Header Part CSS End */
