@@ -57,6 +57,30 @@ a {
   cursor: pointer;
 }
 
+.primary-btn a {
+  font-size: 16px;
+  color: #349db1;
+  font-weight: 600;
+  background: #ffffff;
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+
+.secondary-btn a {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  background: #349db1;
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+
+.primary-btn a img,
+.secondary-btn a img {
+  width: 25px;
+  padding-left: 5px;
+}
+
 /* Base Styles CSS End */
 
 /* Header Part CSS Start */
@@ -240,19 +264,487 @@ nav.navbar {
 }
 
 .hero-btn a {
-  font-size: 18px;
-  color: #349db1;
-  font-weight: 600;
-  background: #ffffff;
-  padding: 12px 40px;
-  border-radius: 50px;
-}
-
-.hero-btn a img {
-  width: 25px;
-  padding-left: 5px;
+  font-size: 18px !important;
+  padding: 12px 40px !important;
 }
 
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* About Section CSS Start */
+
+.about-wrapper {
+  padding: 100px 0;
+}
+
+.about-content {
+  background: #0ac0e0;
+  padding: 60px 40px;
+  box-shadow: 0px 0px 10px 8px #e3e3e3;
+  border-radius: 10px;
+}
+
+.about-content h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+.achieve-card {
+  width: 100%;
+  text-align: center;
+  background: #fcc6e6;
+  padding: 40px;
+  box-shadow: 0px 0px 7px 3px #e3e3e3;
+  border-radius: 10px;
+}
+
+.achieve-card h4 {
+  font-family: segoe-print;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.achieve-card p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.about-img img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  height: 100%;
+  box-shadow: 0px 0px 14px 3px #e3e3e3;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* About Section CSS End */
+
+/* Free Trial Section CSS Start */
+
+.free-trial-wrapper {
+  padding: 100px 0;
+  background: #f1f7f7;
+}
+
+.free-trial-container {
+  background: url(../images/free-trial-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.free-trial-content {
+  padding: 0 80px 0 150px;
+}
+
+.free-trial-content h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.free-trial-form {
+  padding-right: 80px;
+}
+
+.form-input-field input,
+.form-input-field select {
+  width: 100%;
+  background: #ffffff;
+  padding: 12px 20px;
+  margin-bottom: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-input-field select {
+  color: #0ac0e0;
+  font-weight: 500;
+}
+
+.form-input-field input:focus,
+.form-input-field select:focus {
+  outline: none;
+}
+
+.free-trial-form ::placeholder {
+  color: #0ac0e0;
+  font-weight: 500;
+}
+
+.submit-btn button {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  background: #23c6e3;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+}
+
+.submit-btn button img {
+  width: 25px;
+  padding-left: 8px;
+}
+
+.free-trial-shape {
+  position: absolute;
+  top: -40px;
+  left: -140px;
+}
+
+.free-trial-shape img {
+  max-width: 80%;
+}
+
+/* Free Trial Section CSS End */
+
+/* Work Section CSS Start */
+
+.work-wrapper {
+  padding: 100px 0;
+}
+
+.work-title h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.work-item {
+  max-width: 300px;
+  height: 75px;
+  text-align: center;
+  padding: 12px 20px;
+  border: 1px solid #089ab3;
+  border-radius: 10px;
+}
+
+.work-item.active {
+  background: #089ab3;
+}
+
+.work-item.active h4 {
+  color: #ffffff;
+}
+
+.work-item img {
+  width: 40px;
+  margin-right: 25px;
+}
+
+.work-item h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #089ab3;
+  margin-bottom: 0;
+}
+
+/* Work Section CSS End */
+
+/* Popular Courses Section CSS Start */
+
+.popular-courses-wrapper {
+  padding: 100px 0;
+  background: #f3f8f9;
+}
+
+.popular-courses-top h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #089ab3;
+}
+
+.popular-courses-top h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #3b2923;
+}
+
+.popular-course-card {
+  background: #c7e8f0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 50px;
+  margin: 20px 10px;
+}
+
+.popular-course-card-img img {
+  max-width: 250px;
+  width: 100%;
+  min-height: 280px;
+  max-height: 280px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popular-course-card-content h6 {
+  font-family: potato-sans;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1d1816;
+}
+
+.popular-course-card-content h3 {
+  font-size: 28px;
+  color: #07869d;
+}
+
+/* Popular Courses Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  background: url(../images/testimonial-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 100px 0;
+}
+
+.testimonial-slider {
+  width: 100%;
+  height: 700px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1536px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.testimonial-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #47a0af;
+}
+
+.testimonial-content h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+}
+
+.testimonial-content h2 span {
+  color: #089ab3;
+}
+
+.testimonial-content p {
+  font-size: 18px;
+  color: #7f7f8e;
+  margin-bottom: 30px;
+}
+
+/* Testimonial Section CSS End */
+
+/* News and Events Section CSS Start */
+
+.news-events-wrapper {
+  padding-bottom: 60px;
+}
+
+.news-title h2,
+.events-title h2 {
+  position: relative;
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #124953;
+  margin-bottom: 30px;
+}
+
+.news-title h2::after,
+.events-title h2::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 4px;
+  background: #089ab3;
+  border-radius: 10px;
+}
+
+.news-card-icon {
+  padding-right: 10px;
+}
+
+.news-card-content h6 {
+  font-size: 16px;
+  color: #232324;
+}
+
+.news-card-content p {
+  color: #1d4850;
+}
+
+.news hr {
+  border-top: 1px solid #089ab3;
+  opacity: 1;
+  margin-top: 0;
+}
+
+.news-btn {
+  padding-top: 20px;
+}
+
+.events-card {
+  padding-bottom: 20px;
+}
+
+.events-date {
+  max-width: 70px;
+  width: 100%;
+  min-height: 75px;
+  max-height: 75px;
+  height: 100%;
+  text-align: center;
+  padding-top: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.events-date.green {
+  background: #1d4850;
+}
+
+.events-date.blue {
+  background: #089ab3;
+}
+
+.events-date h6 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.events-date h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.events-content h5 {
+  font-size: 20px;
+  color: #124953;
+  margin-bottom: 2px;
+}
+
+.events-content p {
+  color: #1d4850;
+}
+
+.news-btn a,
+.events-btn a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #124953;
+}
+
+.news-btn a img,
+.events-btn a img {
+  width: 25px;
+  margin-left: 4px;
+}
+
+/* News and Events Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: linear-gradient(#8defffc4, #ffaffbb8);
+  padding: 40px 0 10px;
+}
+
+.contact-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b2b2b;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.contact-icon i {
+  color: #ffffff;
+}
+
+.contact-text h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #303333;
+  margin-bottom: 5px;
+}
+
+.contact-text a {
+  color: #303333;
+}
+
+.footer-social ul li {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b2b2b;
+  padding-top: 3px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.footer-social ul li i {
+  color: #ffffff;
+}
+
+.footer-menu ul li {
+  padding: 20px;
+}
+
+.footer-menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303333;
+}
+
+.footer-wrapper hr {
+  border-top: 2px solid #ffffff;
+  opacity: 0.9;
+}
+
+.footer-copyright {
+  padding-top: 40px;
+}
+
+.footer-copyright p,
+.footer-copyright a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000001;
+  margin-bottom: 0;
+}
+
+/* Footer Part CSS End */
