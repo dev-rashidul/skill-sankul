@@ -3,6 +3,13 @@
 /* Min Width 1200px and Max Width 1399px */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .about-item-card {
+    padding: 60px 0;
+  }
+
+  .blog-post-content h3 {
+    font-size: 22px;
+  }
 }
 
 /* Min Width 992px and Max Width 1199px */
@@ -24,6 +31,30 @@
 
   .achieve-card {
     padding: 25px;
+  }
+
+  .common-hero-content h1 {
+    font-size: 48px;
+  }
+
+  .about-contact-content h3 {
+    font-size: 35px;
+  }
+
+  .about-item-card {
+    padding: 35px 0;
+  }
+
+  .strength-title h2,
+  .enquiry-title h2,
+  .categories h2,
+  .top-post h2,
+  .instagram h2 {
+    font-size: 36px;
+  }
+
+  .blog-post-content h3 {
+    font-size: 22px;
   }
 }
 
@@ -56,6 +87,46 @@
   .free-trial-shape img {
     max-width: 60%;
   }
+
+  .common-hero-content h1 {
+    font-size: 36px;
+  }
+
+  .about-contact-content h3 {
+    font-size: 35px;
+  }
+
+  .about-item-card {
+    padding: 35px 0;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .strength-title h2,
+  .enquiry-title h2,
+  .categories h2,
+  .top-post h2,
+  .instagram h2 {
+    font-size: 36px;
+  }
+
+  .about-contact-wrapper {
+    background: none;
+  }
+
+  .strength-item1,
+  .strength-item3 {
+    padding-left: 0;
+  }
+
+  .strength-item4,
+  .strength-item6 {
+    padding-right: 0;
+  }
+
+  .blog-post-content h3 {
+    font-size: 20px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -78,9 +149,15 @@
   .work-title h2,
   .popular-courses-top h2,
   .testimonial-content h2,
+  .about-contact-content h3,
+  .strength-title h2,
+  .enquiry-title h2,
   .news-title h2,
-  .events-title h2 {
-    font-size: 30px;
+  .events-title h2,
+  .categories h2,
+  .top-post h2,
+  .instagram h2 {
+    font-size: 28px;
   }
 
   .work-item {
@@ -133,5 +210,68 @@
 
   .footer-copyright {
     text-align: center;
+  }
+
+  .common-hero-content h1 {
+    font-size: 30px;
+  }
+
+  .about-item-card {
+    padding: 35px 0;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .about-contact-wrapper {
+    background: none;
+  }
+
+  .strength-item1,
+  .strength-item3 {
+    padding-left: 0;
+  }
+
+  .strength-item4,
+  .strength-item6 {
+    padding-right: 0;
+  }
+
+  .common-hero-content p,
+  .about-contact-content p,
+  .top-post-card-text h5 {
+    font-size: 16px;
+  }
+
+  .about-item-card h5 {
+    font-size: 20px;
+  }
+
+  .strength-item {
+    padding: 10px 0;
+  }
+
+  .enquiry-wrapper {
+    padding: 0 10px;
+  }
+
+  .enquiry-form .form-input-field label,
+  .category-menu ul li {
+    font-size: 18px;
+  }
+
+  .enquiry-form .form-input-field ::placeholder {
+    font-size: 16px;
+  }
+
+  .blog-post-content h3 {
+    font-size: 20px;
+  }
+
+  .blog-post-img img {
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+    padding-bottom: 20px;
   }
 }
