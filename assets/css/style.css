@@ -1123,3 +1123,115 @@ About Page CSS
 }
 
 /* Strength Section CSS End */
+
+/* ============***=============
+Contact Page CSS
+============***============= */
+
+/* Contact Page CSS Start */
+
+.contact-hero-bredcrumb {
+  max-width: 195px;
+}
+
+/* Get In Touch Section CSS Start */
+
+.get-in-touch-wrapper {
+  padding: 100px 0;
+}
+
+.get-in-touch-title h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #f642ac;
+  margin-bottom: 70px;
+}
+
+.git-title-shape {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-info-card {
+  background: #ffffff;
+  padding: 50px;
+  margin-bottom: 26px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-info-card:hover {
+  background: #f9e7f3;
+}
+
+.contact-info-card h3 {
+  font-family: potato-sans;
+  font-size: 25px;
+  color: #0ac0e0;
+  padding-top: 10px;
+}
+
+.contact-info-card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #383838;
+  margin-bottom: 0;
+}
+
+.contact-input {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border-radius: 10px;
+}
+
+.contact-input input,
+.contact-input select,
+.contact-input textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.contact-input select {
+  padding: 5px 0;
+}
+
+.contact-input input:focus,
+.contact-input select:focus,
+.contact-input textarea:focus {
+  outline: 0;
+}
+
+.contact-input i {
+  width: 37px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #515151;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.get-in-touch-btn button {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  background: #349db1;
+  padding: 12px 30px;
+  border: 5px solid #ffffff;
+  border-radius: 50px;
+}
+
+/* Get In Touch Section CSS End */
+
+/* Contact Page CSS End */
