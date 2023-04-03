@@ -25,7 +25,9 @@
   .popular-courses-top h2,
   .testimonial-content h2,
   .news-title h2,
-  .events-title h2 {
+  .events-title h2,
+  .get-in-touch-title h2,
+  .upcoming-events-title h2 {
     font-size: 40px;
   }
 
@@ -56,6 +58,18 @@
   .blog-post-content h3 {
     font-size: 22px;
   }
+
+  .git-title-shape {
+    top: -10px;
+  }
+
+  .git-title-shape img {
+    width: 75%;
+  }
+
+  .upcoming-event-card-slide {
+    padding: 0px 20px;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
@@ -71,7 +85,9 @@
   .popular-courses-top h2,
   .testimonial-content h2,
   .news-title h2,
-  .events-title h2 {
+  .events-title h2,
+  .get-in-touch-title h2,
+  .upcoming-events-title h2 {
     font-size: 36px;
   }
 
@@ -127,6 +143,14 @@
   .blog-post-content h3 {
     font-size: 20px;
   }
+
+  .git-title-shape {
+    top: -10px;
+  }
+
+  .git-title-shape img {
+    width: 70%;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -156,7 +180,9 @@
   .events-title h2,
   .categories h2,
   .top-post h2,
-  .instagram h2 {
+  .instagram h2,
+  .get-in-touch-title h2,
+  .upcoming-events-title h2 {
     font-size: 28px;
   }
 
@@ -238,11 +264,14 @@
 
   .common-hero-content p,
   .about-contact-content p,
-  .top-post-card-text h5 {
+  .top-post-card-text h5,
+  .contact-info-card p {
     font-size: 16px;
   }
 
-  .about-item-card h5 {
+  .about-item-card h5,
+  .blog-post-content h3,
+  .contact-info-card h3 {
     font-size: 20px;
   }
 
@@ -255,16 +284,13 @@
   }
 
   .enquiry-form .form-input-field label,
-  .category-menu ul li {
+  .category-menu ul li,
+  .upcoming-event-card-right h4 {
     font-size: 18px;
   }
 
   .enquiry-form .form-input-field ::placeholder {
     font-size: 16px;
-  }
-
-  .blog-post-content h3 {
-    font-size: 20px;
   }
 
   .blog-post-img img {
@@ -273,5 +299,42 @@
     max-height: 280px;
     height: 100%;
     padding-bottom: 20px;
+  }
+
+  .git-title-shape {
+    top: -7px;
+    left: 48%;
+  }
+
+  .git-title-shape img {
+    width: 100%;
+  }
+
+  .map iframe {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    height: 100%;
+  }
+
+  .upcoming-events-top {
+    padding-left: 10px;
+  }
+
+  .event-title-shape img {
+    width: 75%;
+  }
+
+  .event-title-shape {
+    top: -12px;
+    left: -14px;
+  }
+
+  .owl-prev {
+    left: 15px;
+  }
+
+  .upcoming-event-card-left h1 {
+    font-size: 36px;
   }
 }

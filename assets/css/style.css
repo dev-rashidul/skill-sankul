@@ -1180,6 +1180,7 @@ Contact Page CSS
   font-weight: 500;
   color: #383838;
   margin-bottom: 0;
+  word-wrap: break-word;
 }
 
 .contact-input {
@@ -1196,6 +1197,7 @@ Contact Page CSS
 .contact-input select,
 .contact-input textarea {
   width: 100%;
+  color: #b3b3b3;
   background: transparent;
   border: none;
 }
@@ -1232,6 +1234,149 @@ Contact Page CSS
   border-radius: 50px;
 }
 
+.get-in-touch-form ::placeholder {
+  color: #b3b3b3;
+}
+
+.map {
+  padding-top: 100px;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  height: 100%;
+}
+
+.git-shape1 {
+  position: absolute;
+  top: 250px;
+  z-index: -1;
+}
+
+.git-shape2 {
+  position: absolute;
+  bottom: 75px;
+  z-index: -1;
+}
+
 /* Get In Touch Section CSS End */
+
+/* Upcoming Events Section CSS Start */
+
+.upcoming-events-wrapper {
+  background: #f8f2e3;
+  padding: 100px 0;
+}
+
+.upcoming-events-title h2 {
+  font-family: potato-sans;
+  font-size: 48px;
+  color: #0ac0e0;
+}
+
+.event-title-shape {
+  position: absolute;
+  top: -17px;
+  left: -25px;
+}
+
+.see-event-btn a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  background: #ebb112;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+.see-event-btn a img {
+  padding-left: 5px;
+}
+
+.upcoming-event-slider {
+  padding-top: 80px;
+}
+
+.upcoming-event-card-slide {
+  padding: 0px 50px;
+}
+
+.upcoming-event-card-left {
+  text-align: center;
+  padding-right: 25px;
+}
+
+.upcoming-event-card-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.upcoming-event-card-left p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.upcoming-event-card-left h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.upcoming-event-card-right h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f642ac;
+  margin: 0;
+}
+
+.upcoming-event-card-right span {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 57%;
+  transform: translateX(-57%);
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  background: none !important;
+}
+
+.owl-prev {
+  left: 0;
+}
+
+.owl-next {
+  right: -30px;
+}
+
+.owl-prev i,
+.owl-next i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #ed1eab;
+  border: 3px solid #42c3dd;
+  border-radius: 100%;
+}
+
+/* Upcoming Events Section CSS End */
 
 /* Contact Page CSS End */
