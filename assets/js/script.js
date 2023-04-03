@@ -1,3 +1,11 @@
+// JavaScript For Sticky Header
+
+window.addEventListener("scroll", function(){
+  const header = document.getElementById("Header");
+  header.classList.toggle("sticky", window.scrollY > 10)
+
+})
+
 // JavaScript for Vertical Slider
 
 var toTop = 0;
