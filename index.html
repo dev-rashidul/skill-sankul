@@ -963,6 +963,28 @@
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
 
-    <script></script>
+    <script>
+      // JavaScript for Review Vertical Slider
+
+      $(".testimonial-slider").scrollText({
+        // container
+        container: ".testimonial-slider",
+
+        // child elements
+        sections: "li",
+
+        // scrolling speed
+        duration: 2000,
+
+        // endless loop
+        loop: true,
+
+        // CSS appended to the current item
+        currentClass: "current",
+
+        // or 'down'
+        direction: "up",
+      });
+    </script>
   </body>
 </html>

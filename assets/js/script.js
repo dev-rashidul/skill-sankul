@@ -14,29 +14,6 @@ dropdownIcon.addEventListener("click", function(){
   dropdown.classList.toggle('active')
 })
 
-
-// JavaScript for Review Vertical Slider
-
-$(".testimonial-slider").scrollText({
-  // container
-  container: ".testimonial-slider",
-
-  // child elements
-  sections: "li",
-
-  // scrolling speed
-  duration: 2000,
-
-  // endless loop
-  loop: true,
-
-  // CSS appended to the current item
-  currentClass: "current",
-
-  // or 'down'
-  direction: "up",
-});
-
 // JavaScript for Contact page event Slider
 
 $(".owl-carousel").owlCarousel({
