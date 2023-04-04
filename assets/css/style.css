@@ -707,7 +707,7 @@ nav.navbar {
 .testimonial-slider {
   max-width: 500px;
   width: 100%;
-  height: 300px;
+  height: 450px;
   margin: 0px auto;
   line-height: 30px;
   overflow: Hidden;
@@ -1774,3 +1774,39 @@ Contact Page CSS
 /* Upcoming Events Section CSS End */
 
 /* Contact Page CSS End */
+
+.review-card {
+  background: #ffffff;
+  text-align: center;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  color: #767676;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.review-star i {
+  color: #f9b841;
+}
+
+.review-person h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #494949;
+  margin-bottom: 0;
+}
+
+.review-person h6 {
+  color: #767676;
+}

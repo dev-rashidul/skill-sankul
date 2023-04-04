@@ -15,23 +15,27 @@ dropdownIcon.addEventListener("click", function(){
 })
 
 
-// JavaScript for Vertical Slider
+// JavaScript for Review Vertical Slider
 
-var toTop = 0;
-function autoPlay() {
-  timer = setTimeout(function () {
-    var testimonialSlider = document.getElementById("testimonial-slider");
-    toTop = toTop - 350;
-    if (toTop < -800) {
-      toTop = 0;
-      clearTimeout(timer);
-      testimonialSlider.onmouseover = clearTimeout(timer);
-    }
-    testimonialSlider.style.top = toTop + "px";
-    autoPlay();
-  }, 2000);
-}
-autoPlay();
+$(".testimonial-slider").scrollText({
+  // container
+  container: ".testimonial-slider",
+
+  // child elements
+  sections: "li",
+
+  // scrolling speed
+  duration: 2000,
+
+  // endless loop
+  loop: true,
+
+  // CSS appended to the current item
+  currentClass: "current",
+
+  // or 'down'
+  direction: "up",
+});
 
 // JavaScript for Contact page event Slider
 
