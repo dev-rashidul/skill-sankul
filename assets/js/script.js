@@ -6,6 +6,15 @@ window.addEventListener("scroll", function(){
 
 })
 
+// Dropdown Menu JavaScript
+const dropdownIcon = document.getElementById("dropdown-icon")
+const dropdown = document.querySelector(".dropdown")
+
+dropdownIcon.addEventListener("click", function(){
+  dropdown.classList.toggle('active')
+})
+
+
 // JavaScript for Vertical Slider
 
 var toTop = 0;

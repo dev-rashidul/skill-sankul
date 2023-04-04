@@ -29,6 +29,9 @@
     <!-- Header Part HTML Start -->
 
     <header>
+      <div class="hero-bg">
+        <img draggable="false" src="assets/images/hero-bg.png" alt="hero-bg" />
+      </div>
       <!-- Topbar Section HTML Start -->
 
       <section id="Topbar">
@@ -121,20 +124,16 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
+                <li class="nav-item position-relative" id="dropdown-icon">
+                  <a class="nav-link"
+                    >Dropdown <i class="fa-sharp fa-solid fa-caret-down"></i
+                  ></a>
+                  <ul class="dropdown">
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
                 </li>
@@ -216,16 +215,16 @@
                     <i class="fa-regular fa-envelope"></i>
                   </div>
                   <h3>Email Address</h3>
-                  <p>info@webexample.com</p>
-                  <p>info@webexample.com</p>
+                  <a href="#">info@webexample.com</a>
+                  <a href="#">info@webexample.com</a>
                 </div>
                 <div class="contact-info-card text-center">
                   <div class="contact-icon m-auto">
                     <i class="fa-solid fa-phone"></i>
                   </div>
                   <h3>Phone Number</h3>
-                  <p>090-098-765-09</p>
-                  <p>090-098-765-09</p>
+                  <a href="#">090-098-765-09</a>
+                  <a href="#">090-098-765-09</a>
                 </div>
                 <div class="contact-info-card text-center">
                   <div class="contact-icon m-auto">
@@ -277,8 +276,13 @@
                         <button type="button">
                           Submit Now
                           <img
-                            src="assets/images/button-icon-white.png"
-                            alt="button-icon-white"
+                            src="assets/images/button-icon.png"
+                            alt="button-icon"
+                          />
+                          <img
+                            class="button-icon2"
+                            src="assets/images/button-icon2.png"
+                            alt="button-icon2"
                           />
                         </button>
                       </div>
@@ -336,10 +340,11 @@
               <div class="see-event-btn pt-5 pt-md-0">
                 <a href="#"
                   >see all events
+                  <img src="assets/images/button-icon.png" alt="button-icon" />
                   <img
-                    draggable="false"
-                    src="assets/images/button-icon-white.png"
-                    alt="button-icon-white"
+                    class="button-icon2"
+                    src="assets/images/button-icon2.png"
+                    alt="button-icon2"
                 /></a>
               </div>
             </div>
@@ -354,6 +359,15 @@
                   <div class="upcoming-event-card-right">
                     <h4>Lorem Ipsum dolor</h4>
                     <span>Contrary to popu belief, Lorem Ipsum</span>
+                    <div class="upcoming-event-slider-btn">
+                      <a href="#"
+                        >View More
+                        <img
+                          draggable="false"
+                          src="assets/images/button-icon-white.png"
+                          alt="button-icon-white"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -367,6 +381,15 @@
                   <div class="upcoming-event-card-right">
                     <h4>Lorem Ipsum dolor</h4>
                     <span>Contrary to popu belief, Lorem Ipsum</span>
+                    <div class="upcoming-event-slider-btn">
+                      <a href="#"
+                        >View More
+                        <img
+                          draggable="false"
+                          src="assets/images/button-icon-white.png"
+                          alt="button-icon-white"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -380,6 +403,15 @@
                   <div class="upcoming-event-card-right">
                     <h4>Lorem Ipsum dolor</h4>
                     <span>Contrary to popu belief, Lorem Ipsum</span>
+                    <div class="upcoming-event-slider-btn">
+                      <a href="#"
+                        >View More
+                        <img
+                          draggable="false"
+                          src="assets/images/button-icon-white.png"
+                          alt="button-icon-white"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -393,6 +425,15 @@
                   <div class="upcoming-event-card-right">
                     <h4>Lorem Ipsum dolor</h4>
                     <span>Contrary to popu belief, Lorem Ipsum</span>
+                    <div class="upcoming-event-slider-btn">
+                      <a href="#"
+                        >View More
+                        <img
+                          draggable="false"
+                          src="assets/images/button-icon-white.png"
+                          alt="button-icon-white"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -406,6 +447,15 @@
                   <div class="upcoming-event-card-right">
                     <h4>Lorem Ipsum dolor</h4>
                     <span>Contrary to popu belief, Lorem Ipsum</span>
+                    <div class="upcoming-event-slider-btn">
+                      <a href="#"
+                        >View More
+                        <img
+                          draggable="false"
+                          src="assets/images/button-icon-white.png"
+                          alt="button-icon-white"
+                      /></a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -515,10 +565,6 @@
 
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    ></script>
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
