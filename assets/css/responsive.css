@@ -91,6 +91,10 @@
     font-size: 36px;
   }
 
+  .work-item {
+    margin: auto;
+  }
+
   .free-trial-content {
     padding-left: 80px;
     padding-right: 0;
@@ -206,12 +210,8 @@
     padding: 40px 20px 0;
   }
 
-  .testimonial-slider {
-    height: 450px;
-  }
-
-  .testimonial-content {
-    padding-bottom: 50px;
+  .review-card {
+    padding: 20px;
   }
 
   .popular-course-card-content h3,
@@ -252,6 +252,14 @@
     background: none;
   }
 
+  .about-contact-content {
+    text-align: center;
+  }
+
+  .secondary-btn a {
+    margin: auto;
+  }
+
   .strength-item1,
   .strength-item3 {
     padding-left: 0;
@@ -281,6 +289,10 @@
 
   .enquiry-wrapper {
     padding: 0 10px;
+  }
+
+  .about-items {
+    padding: 100px 0 0px;
   }
 
   .enquiry-form .form-input-field label,

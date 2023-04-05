@@ -337,7 +337,7 @@
                   />
                 </div>
               </div>
-              <div class="see-event-btn pt-5 pt-md-0">
+              <div class="see-event-btn pt-5 pt-md-0 d-none d-md-block">
                 <a href="#"
                   >see all events
                   <img src="assets/images/button-icon.png" alt="button-icon" />
@@ -475,6 +475,16 @@
                 </div>
               </div>
             </div>
+            <div class="see-event-btn d-md-none">
+              <a href="#"
+                >see all events
+                <img src="assets/images/button-icon.png" alt="button-icon" />
+                <img
+                  class="button-icon2"
+                  src="assets/images/button-icon2.png"
+                  alt="button-icon2"
+              /></a>
+            </div>
           </div>
         </div>
       </section>
@@ -489,9 +499,9 @@
     <footer id="footer">
       <div class="footer-wrapper">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-md-6 col-lg-3">
-              <div class="contact-box d-flex">
+              <div class="contact-box d-flex justify-content-center">
                 <div class="contact-icon">
                   <i class="fa-solid fa-phone"></i>
                 </div>
@@ -502,7 +512,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-3 pt-4 pt-md-0">
-              <div class="contact-box d-flex">
+              <div class="contact-box d-flex justify-content-center">
                 <div class="contact-icon">
                   <i class="fa-regular fa-envelope"></i>
                 </div>
@@ -513,7 +523,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-3 pt-4 pt-lg-0">
-              <div class="contact-box d-flex">
+              <div class="contact-box d-flex justify-content-center">
                 <div class="contact-icon">
                   <i class="fa-sharp fa-solid fa-location-dot"></i>
                 </div>
@@ -525,7 +535,7 @@
             </div>
             <div class="col-md-6 col-lg-3 pt-4 pt-lg-0">
               <div class="footer-social">
-                <ul class="d-flex align-items-center">
+                <ul class="d-flex align-items-center justify-content-center">
                   <li>
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                   </li>
@@ -583,5 +593,33 @@
 
     <!-- Custom JavaScript -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+      // JavaScript for Contact page event Slider
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          700: {
+            items: 2,
+            nav: true,
+          },
+          1000: {
+            items: 3,
+            nav: true,
+          },
+        },
+        navText: [
+          '<i class="fa-solid fa-chevron-left"></i>',
+          '<i class="fa-solid fa-chevron-right"></i>',
+        ],
+      });
+    </script>
   </body>
 </html>
