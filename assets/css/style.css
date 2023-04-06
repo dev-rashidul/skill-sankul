@@ -150,6 +150,7 @@ header {
   color: #3b2923;
   padding-right: 5px;
   transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .topbar-social li {
@@ -234,24 +235,6 @@ nav.navbar {
 .call i {
   padding-right: 5px;
 }
-
-/* .dropdown {
-  position: absolute;
-  left: 0;
-  width: 150px;
-  background: white;
-  border: 1px solid #dddddd;
-  border-radius: 5px;
-  display: none;
-}
-
-.dropdown .nav-link {
-  padding: 5px 20px !important;
-}
-
-.dropdown.active {
-  display: block;
-} */
 
 .navbar-toggler {
   border: 0 !important;
