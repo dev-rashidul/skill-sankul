@@ -235,7 +235,7 @@ nav.navbar {
   padding-right: 5px;
 }
 
-.dropdown {
+/* .dropdown {
   position: absolute;
   left: 0;
   width: 150px;
@@ -251,7 +251,7 @@ nav.navbar {
 
 .dropdown.active {
   display: block;
-}
+} */
 
 .navbar-toggler {
   border: 0 !important;
