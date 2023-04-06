@@ -825,16 +825,14 @@ nav.navbar {
   max-height: 75px;
   height: 100%;
   text-align: center;
+  background: #1d4850;
   padding-top: 15px;
   margin-right: 15px;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
-.events-date.green {
-  background: #1d4850;
-}
-
-.events-date.blue {
+.events-date:hover {
   background: #089ab3;
 }
 
@@ -1764,6 +1762,7 @@ Contact Page CSS
 .owl-next {
   position: absolute;
   top: 50%;
+  transform: translateX(-50%);
 }
 
 .owl-prev:hover,
